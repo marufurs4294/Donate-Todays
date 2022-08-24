@@ -37,6 +37,7 @@ background:linear-gradient(rgba(0, 0, 0, .60) ,rgba(0, 0, 0,.80)) ,url(./images/
 }
 .plan-1{
     background-color: rgb(72, 208, 208);
+    display: flex;
 }
 .plan-2{
     background-color: pink;
@@ -47,4 +48,12 @@ background:linear-gradient(rgba(0, 0, 0, .60) ,rgba(0, 0, 0,.80)) ,url(./images/
 .plan-1,.plan-2, .plan-3{
     padding: 30px 20px;
     border-radius: 10px;
+}
+
+/* Annual Report */
+.report-item{
+    text-align: start;
+}
+.report-item i{
+    color:tomato ;
 }
