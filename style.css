@@ -1,7 +1,6 @@
 /* Common Css */
 *{
     font-family: 'Roboto', sans-serif;
-    color: #000;
 }
 h1{
     font-size: 45px;
@@ -19,6 +18,10 @@ p{
     transition: .5s;
     font-size: 20px;
 }
+i{
+    font-size: 35px;
+    padding: 15px 0;
+}
 
 
 /* Top Banner */
@@ -26,4 +29,22 @@ p{
 background:linear-gradient(rgba(0, 0, 0, .60) ,rgba(0, 0, 0,.80)) ,url(./images/donation6.jpg);
     background-size: cover;
     height: 100vh;
+}
+
+/* Our Donate Plan */
+.donate-plan{
+    padding: 60px 0;
+}
+.plan-1{
+    background-color: rgb(72, 208, 208);
+}
+.plan-2{
+    background-color: pink;
+}
+.plan-3{
+    background-color: #fad390;
+}
+.plan-1,.plan-2, .plan-3{
+    padding: 30px 20px;
+    border-radius: 10px;
 }
